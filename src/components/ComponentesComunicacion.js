@@ -12,10 +12,15 @@ export default class Padre extends Component {
             <div>
                 <h2>comunicacion entre padre e hijo</h2>
                 <Hijo mensaje='Mensaje para hijo 1'/>
+                <Hijo contador={this.incrementarContador} mensaje='Mensaje para hijo 2'/>
             </div>
         )
     }
 }
 function Hijo(props){
-    return <h3>{props.mensaje}</h3>
+    return (
+        <>
+    <h3>{props.mensaje}</h3>
+    <button onClick={props.incrementarContador}></button>
+    </>)
 }

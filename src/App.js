@@ -7,6 +7,16 @@ import RenderizandoElementos from './components/RenderizadoElementos.js';
 import RenderizacionCondicional from './components/RenderizadoCondicional.js'
 import {EventosS6,EventosS7,MasSobreEventos} from './components/eventos.js'
 import Padre from './components/ComponentesComunicacion.js'
+import CicloDeVida from './components/CiclodeVida.js';
+import AjaxApi from './components/AjaxApi.js';
+import ContadorHooks from './components/ContadorHooks.js';
+import ScrollHooks from './components/ScrollHooks.js'
+import RelojHooks from './components/relojHooks.js'
+import AjaxHooks from './components/AjaxHooks'
+import HooksPersonalizados from './components/HooksPersonalizados.js';
+import Referencias from './components/referencias';
+import Formulario from './components/formularios';
+import Estilos from './components/estilos';
 function App() {
   let nombre = 'angel'
   let auth = true
@@ -31,6 +41,16 @@ function App() {
         <EventosS7></EventosS7>
         <MasSobreEventos></MasSobreEventos>
         <Padre/>
+        <CicloDeVida/>
+        <AjaxApi/>
+        <ContadorHooks/>
+        <ScrollHooks/>
+        <RelojHooks/>
+        <AjaxHooks/>
+         <HooksPersonalizados/>
+         <Referencias/>
+         <Formulario/>
+         <Estilos/>
         <a
           className="App-link"
           href="https://reactjs.org"
