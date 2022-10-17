@@ -17,6 +17,7 @@ import HooksPersonalizados from './components/HooksPersonalizados.js';
 import Referencias from './components/referencias';
 import Formulario from './components/formularios';
 import Estilos from './components/estilos';
+import ComponentesRenderizados from './components/ComponentesEstelizados'
 function App() {
   let nombre = 'angel'
   let auth = true
@@ -51,6 +52,7 @@ function App() {
          <Referencias/>
          <Formulario/>
          <Estilos/>
+         <ComponentesRenderizados/>
         <a
           className="App-link"
           href="https://reactjs.org"
